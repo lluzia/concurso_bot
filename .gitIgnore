@@ -93,7 +93,7 @@ node_modules/
 # backups de config com senha
 config_backup.py
 config_old.py
-config.py
+
 
 # qualquer arquivo com palavra "secret" ou "key"
 *secret*
