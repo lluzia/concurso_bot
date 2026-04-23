@@ -1,10 +1,12 @@
 name: Concursos Bot
 
 on:
+  push:
+    branches: [ "main" ]
+    
   schedule:
     - cron: "0 6 * * 4"  # Quinta-feira às 06:00 UTC
-  workflow_dispatch:
-
+    
 jobs:
   run-bot:
     runs-on: ubuntu-latest
