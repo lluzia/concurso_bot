@@ -1,0 +1,116 @@
+#################################################
+# 🐍 Python
+#################################################
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+#################################################
+# 🌱 Environment / Secrets (CRÍTICO)
+#################################################
+
+.env
+.env.*
+!.env.example
+
+# arquivos locais com credenciais
+credentials.json
+secrets.json
+
+# logs sensíveis
+*.log
+logs/
+
+#################################################
+# 💾 Dados locais do bot
+#################################################
+
+data/
+*.sqlite
+*.db
+
+# estado do scraper
+seen.json
+
+#################################################
+# 🧪 Virtual environments
+#################################################
+
+venv/
+env/
+ENV/
+.venv/
+
+#################################################
+# 🧑‍💻 IDEs / Editors
+#################################################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+#################################################
+# 🧪 Test / Debug artifacts
+#################################################
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+#################################################
+# 🔐 GitHub / CI secrets leakage protection
+#################################################
+
+# arquivos de workflow temporários
+*.tar
+*.zip
+
+# evitar arquivos acidentalmente gerados com envs
+*.env.local
+*.env.production
+*.env.development
+
+#################################################
+# 📦 Node (caso futuramente adicione dashboard)
+#################################################
+
+node_modules/
+
+#################################################
+# 🚨 Segurança extra (IMPORTANTE)
+#################################################
+
+# backups de config com senha
+config_backup.py
+config_old.py
+config.py
+
+# qualquer arquivo com palavra "secret" ou "key"
+*secret*
+*apikey*
+*token*
+*password*
+
+#################################################
+# 🧠 Optional: evitar push acidental de datasets
+#################################################
+
+*.csv
+*.xlsx
+*.json.bak
+
+#################################################
+# Owner
+#################################################
+scraper_jc.py
+scraper_cnb.py
