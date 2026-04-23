@@ -14,6 +14,3 @@ Bot automatizado que monitora concursos públicos no Brasil, filtra por regiões
 - Execução automática via GitHub Actions
 
 ---
-
-## 🧠 Arquitetura
-![](/Users/Luzia/Desktop/Screenshot 2026-04-23 at 21.46.00.png)
