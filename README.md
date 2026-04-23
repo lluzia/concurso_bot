@@ -1,3 +1,4 @@
+[![Concursos Bot](https://github.com/lluzia/concurso_bot/actions/workflows/bot.yml/badge.svg)](https://github.com/lluzia/concurso_bot/actions/workflows/bot.yml)
 # 📢 Concursos Bot Brasil
 
 Bot automatizado que monitora concursos públicos no Brasil, filtra por regiões e envia notificações por email.
@@ -12,5 +13,3 @@ Bot automatizado que monitora concursos públicos no Brasil, filtra por regiões
 - Email HTML organizado
 - Histórico para evitar duplicados
 - Execução automática via GitHub Actions
-
----
