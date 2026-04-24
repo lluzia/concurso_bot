@@ -13,3 +13,32 @@ Bot automatizado que monitora concursos públicos no Brasil, filtra por regiões
 - Email HTML organizado
 - Histórico para evitar duplicados
 - Execução automática via GitHub Actions
+
+---
+
+## ⚙️ Configuração local
+
+### Instalar dependências
+
+```bash
+pip install -r requirements.txt
+
+```
+### Crie .env com as variáveis
+
+EMAIL_FROM=seu_email@gmail.com
+EMAIL_TO=destino@gmail.com
+EMAIL_PASSWORD=sua_app_password
+
+### Execute localmente
+```bash
+python main.py
+```
+
+### Estrutura
+- main.py
+- scraper_pci.py
+- email_sender.py
+- storage.py
+- config.py
+- .github/workflows/bot.yml
