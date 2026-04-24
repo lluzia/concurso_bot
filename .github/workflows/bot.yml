@@ -10,6 +10,8 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Permite fazer push de commits
 
     steps:
       - name: Checkout repository
