@@ -12,7 +12,7 @@ API_URL = "https://concursos-api.deno.dev"
 URL = "https://www.pciconcursos.com.br/"
 
 # filtros opcionais
-KEYWORDS = ["prefeitura", "polícia", "tribunal", "TI", "analista", "INSS", "banco", "câmara", "senado"]
+KEYWORDS = ["prefeitura", "polícia", "tribunal", "TI", "analista", "INSS", "banco", "câmara", "senado", "sefaz"]
 
 # regiões desejadas
 REGIONS = ["SUDESTE", "SUL", "CENTRO-OESTE", "NORDESTE"]
