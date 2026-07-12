@@ -1,3 +1,4 @@
+
 import os
 from dotenv import load_dotenv
 
@@ -12,7 +13,7 @@ API_URL = "https://concursos-api.deno.dev"
 URL = "https://www.pciconcursos.com.br/"
 
 # filtros opcionais
-KEYWORDS = ["prefeitura", "polícia", "tribunal", "TI", "analista", "INSS", "banco", "câmara", "senado", "sefaz", "controle", "controladoria", "fazenda"]
+KEYWORDS = ["prefeitura", "polícia", "tribunal", "TI", "analista", "INSS", "banco", "câmara", "senado", "sefaz", "controle", "controladoria", "controladoria", "fazenda"]
 
 # regiões desejadas
 REGIONS = ["SUDESTE", "SUL", "CENTRO-OESTE", "NORDESTE"]
